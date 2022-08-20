@@ -11,9 +11,5 @@ mvn install
 sudo systemctl stop tomcat8
 sudo rm -rf /var/lib/tomcat8/webapps/ROOT*
 sudo cp target/vprofile-v2.war /var/lib/tomcat8/webapps/ROOT.war
-
 sudo systemctl start tomcat8
 sudo systemctl enable tomcat8
-
-# sudo mkdir -p /var/lib/tomcat8/webapps/ROOT/WEB-INF/classes
-# sudo cp src/main/resources/application.properties /var/lib/tomcat8/webapps/ROOT/WEB-INF/classes/application.properties
