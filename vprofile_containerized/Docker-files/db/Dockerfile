@@ -1,4 +1,4 @@
-FROM mysql:5.7.25
+FROM --platform=linux/amd64 mysql:5.7.25
 LABEL "Project"="Vprofile"
 LABEL "Author"="Konstantin"
 
